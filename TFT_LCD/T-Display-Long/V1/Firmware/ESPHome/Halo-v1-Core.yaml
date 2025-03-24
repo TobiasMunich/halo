@@ -544,7 +544,7 @@ sensor:
   - platform: bmp280_i2c
     i2c_id: lily_i2c
     temperature:
-    address: 0x77
+    address: 0x76
       name: "BME280 Temperature"
       oversampling: 2x
       # filters:
